@@ -3,7 +3,7 @@ import torch.nn as nn
 import timm
 
 from timm.models.vision_transformer import Block
-from models.swin import SwinTransformer
+from .swin import SwinTransformer ## NOTE: Changed to dot-syntax import for Tirtha
 from torch import nn
 from einops import rearrange
 
