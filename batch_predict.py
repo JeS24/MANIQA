@@ -91,7 +91,7 @@ class MANIQAScore:
 
             # checkpoint path
             # Tirtha: Passed from Tirtha
-            "ckpt_path": str(Path(ckpt_pth).resolve().parent),
+            "ckpt_path": str(Path(ckpt_pth).resolve()),
         })
 
         # model definition
